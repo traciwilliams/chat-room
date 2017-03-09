@@ -130,7 +130,9 @@ LAYOUT
 	font-family: 'Anaheim', sans-serif;
 	height: 200px;
 	padding: 100px 10px 10px 10px;
-	border: 1px solid red
+	border: 1px solid red;
+	overflow: scroll;
+
 }
 .btn {
 	font-family: 'Anaheim', sans-serif;

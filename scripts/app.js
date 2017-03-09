@@ -33,7 +33,6 @@ function clearComment() {
 
 	
 	//holder = userComment + yourUsername + displayContent; 
-	
 
 
 	//holder.innerHTML = ""; //clears the holder div
