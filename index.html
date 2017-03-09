@@ -9,44 +9,38 @@
 </head>
 <body>
 	<div id="wrapper">
-
-		<header class="container"></header>
+	<header class="container">Loreum Ipsum</header>
 		<h1 class="logo">Chat Room</h1>
 		
-		<nav></nav>
+		<!-- <nav></nav> -->
 		
 		<section class="top">
 			<h1>Log In</h1>
 			<section class="col-1-3">
 				<div class="username"><input type="text" name="username" placeholder="username"/></div><br>
-				<div id="password"><input type="text" name="username" placeholder="password"/></div>
-				<input class="btn" id="signIn" type="submit" name="submit" value="Log In"/><br><br>New chat room member?<br> Register <a href="#">here!</a></p>
+				<div><input type="text" id="password" name="password" placeholder="password"/></div>
+				<input class="btn" id="submit" type="submit" name="submit" value="Sign In"/><br><br>New chat room member?<br> Register <a href="#">here!</a></p>
 			</section>
-
 			<section class="col-2-3">
-				<div id="content">chat room</div>
+				<div id="content">chat room content</div>
 			</section>	
-		</section>
+		</section> <!--top-->
 
 		<section class="bottom">
-
 			<section class="col-1-3">
-				<div class="yourUsername"><input type="text" name="yourUsername" placeholder="username"/></div>
-				</section>
-				
-				<label>
-					  <!-- <div class="col-2-3 username"><input type="text" name="username" placeholder="username"/></div>	 -->
-				      <!-- Comments -->
-				      <textarea rows="13" cols="50" class="col-2-3" name="comments" placeholder="comments here.."></textarea>
-				      <input class="enterBtn" type="submit" name="submit" value="Enter"/>
-				</label>
-
-
-				<!-- <div class="col-2-3 id="postContent">Comment here ...<br> -->
-				
-			</div>
+				<div class="yourUsernameBox"><input type="text" id="yourUsername" name="yourUsername" placeholder="Your Username"/></div>
 			</section>
-		</section>
+				
+			<label>
+				 <!-- <div class="col-2-3 username"><input type="text" name="username" placeholder="username"/></div>	 -->
+				 <!-- Comments -->
+				 <textarea rows="13" cols="50" class="col-2-3" id="comments" name="comments" placeholder="comments here..."></textarea>
+				 <!-- <input class="enterBtn" type="submit" name="submit" value="Enter"/> -->
+				 <button class="enterBtn" onclick="enterComment()">Here I am</button>
+			</label>
+
+				<!-- <div class="col-2-3 id="postContent">Comment here ...<br> </div>-->
+		</section><!--bottom-->
 		<footer>General Assembly JavaScript Project by Traci Williams</footer>
 	</div><!--end of wrapper div-->
 </body>

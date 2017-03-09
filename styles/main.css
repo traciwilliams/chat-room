@@ -122,8 +122,9 @@ LAYOUT
 	padding-right: 30px;
 }
 
-.yourUsername {
+.yourUsernameBox {
 	float: right;
+	
 }
 #content {
 	font-family: 'Anaheim', sans-serif;
